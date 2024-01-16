@@ -1,0 +1,30 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "AvenirNextCyrLight";
+  --headers-font-family: "IntroDemoCondLightCAPS";
+  --headers-caps-bl-family: "IntroDemoCondBlackCAPS";
+
+  --content-width: 1024px;
+  --container-offset: 0;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --header-height: 88px;
+  --offset-main: 0px;
+
+  // colors
+  --main-black:#3C3B35;
+  --main-white:#FFFFFF;
+  --main-beige:#FAF5F0;
+  --main-bronze: #A3784E;
+  --coffee-milk:#C0B3A8;
+  --color-black: #0D0D0D;
+  --dark-bronze: #886A44;
+  --light-gray: #E6E6E6;
+  --medium-gray: #B8B8B8;
+  --dark-gray: #3d3d3d;
+
+  --err-red: #FF3A2E;
+  --bg-goods: #FAFAFA;
+
+}

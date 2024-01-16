@@ -1,0 +1,53 @@
+
+.new-pizza > section {
+  padding: 25px 55px;
+  @include mobile {
+    padding: 24px 24px;
+  }
+}
+
+.new-pizza > .back  {
+  // position: absolute;
+  // top: 60px;
+  // left: 0;
+  // z-index: 10;
+  padding: 56px 55px 10px 55px;
+    @include mobile {
+      padding: 52px 24px 10px 24px;
+    }
+}
+
+
+.head-h0 {
+  @include mobile {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+p {
+  @include mobile {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+
+
+section.new-header {
+  color: var(--main-black);
+  background-color: var(--main-beige);
+  h1 {
+    color: var(--main-black);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+section.new-header.black {
+  color: var(--main-white);
+  background-color: var(--color-black);
+  h1 {
+    color: var(--main-white);
+  }
+
+}

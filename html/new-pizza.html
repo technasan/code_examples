@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  @include('partials/head.html')
+
+  <body class="page__body new-pizza">
+    <div class="site-container" id="site-container">
+      @include('partials/header.html')
+
+      <main class="new-pizza bg-beige">
+        @include('partials/buffer_top.html') @include('partials/arrowback.html')
+        <h1 class="heading">новая серия пиццы</h1>
+        @include('partials/new_genzers.html') @include('partials/new_jomo.html') @include('partials/new_dof.html')
+        @include('partials/new_line.html') @include('partials/new_keys.html') @include('partials/new_more.html')
+      </main>
+      @include('partials/footer.html')
+    </div>
+  </body>
+</html>

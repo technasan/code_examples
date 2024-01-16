@@ -1,0 +1,67 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+// @import "./components/topmenu_manuf";
+@import "./components/footer";
+@import "./components/buttons";
+@import "./components/arrowback";
+@import "./components/arrows";
+@import "./components/forms";
+@import "./components/modals";
+
+@import "./components/header";
+@import "./components/topsearch";
+@import "./components/topmenu";
+@import "./components/topmenu-mobile";
+
+@import "./components/uikit";
+@import "./components/cookie-alert";
+
+// главная страница
+@import "./components/main";
+@import "./components/main-intro";
+@import "./components/main-highlights";
+@import "./components/main-pachka";
+@import "./components/main-keys";
+@import "./components/main-extra";
+@import "./components/main-department";
+
+// каталог
+@import "./components/catalog";
+@import "./components/catalog-filters";
+
+// страница товара
+@import "./components/product-type1"; // пельмени
+@import "./components/product-type2"; // блины
+@import "./components/product-menu";
+@import "./components/product-submenu";
+@import "./components/product-nutrition";
+
+// бренды
+@import "./components/brands";
+@import "./components/brand-menu";
+@import "./components/brands-view360";
+
+// контакты
+@import "./components/contacts";
+
+// новинки + лендинг
+@import "./components/new";
+@import "./components/new-new";
+@import "./components/new-cards";
+@import "./components/new-more";
+@import "./components/new-keys";
+@import "./components/new-jomo";
+@import "./components/new-line";
+
+// стартапы
+@import "./components/startups";
+
+// другие статические страницы
+@import "./components/quality";
+@import "./components/labs";
+@import "./components/creating";

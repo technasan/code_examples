@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  @include('partials/head.html')
+
+  <body class="page__body">
+    <div class="site-container" id="site-container">
+      @include('partials/header.html')
+
+      <main class="product-type1">
+        @include('partials/arrowback.html')
+        <section class="product">
+          <h1 class="product-name-mobile mobile">блины</h1>
+          <div class="container product__container grid">
+            <div class="product__left_relative desktop"></div>
+            <div class="product__submenu">@include('partials/product_submenu_bliny.html')</div>
+            <div class="product__left">
+              <!-- здесь нет подменю и подразделов, только название -->
+              <div class="product-name-only desktop">блины</div>
+            </div>
+            <div class="product__content">@include('partials/product_t2_product_bliny.html')</div>
+
+            <div></div>
+          </div>
+        </section>
+      </main>
+
+      @include('partials/footer.html')
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+section.new-keys {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  @include mobile {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+// стили карточек - стандартные из _main-keys.scss
+.new-keys * .keys__cards {
+  gap: 24px 0;
+}
+.new-keys * .keys__item {
+  @include mobile {
+    //margin-bottom: 24px;
+  }
+
+}
